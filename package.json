@@ -1,0 +1,37 @@
+{
+  "name": "tokenenrich-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for TokenEnrich - Sub-second B2B firmographics in 180 tokens.",
+  "main": "dist/index.js",
+  "bin": {
+    "tokenenrich-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "files": [
+    "dist",
+    "smithery.yaml",
+    "README.md"
+  ],
+  "homepage": "https://tokenenrich.com",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-desktop",
+    "cursor",
+    "b2b-data",
+    "enrichment",
+    "token-optimization"
+  ],
+  "author": "TokenEnrich",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}

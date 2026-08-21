@@ -1,0 +1,7 @@
+﻿startCommand:
+  type: stdio
+  config:
+    command: "node"
+    args: ["dist/index.js"]
+    env:
+      TOKENENRICH_API_KEY: "ae_sandbox_trial"
