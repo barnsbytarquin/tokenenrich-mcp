@@ -1,7 +1,7 @@
-﻿startCommand:
+startCommand:
   type: stdio
   config:
-    command: "node"
-    args: ["dist/index.js"]
+    command: "npx"
+    args: ["-y", "tokenenrich-mcp"]
     env:
       TOKENENRICH_API_KEY: "ae_sandbox_trial"
