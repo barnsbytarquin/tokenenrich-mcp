@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "Model Context Protocol (MCP) server for TokenEnrich - Sub-second B2B firmographics in 180 tokens.",
   "main": "dist/index.js",
-  "bin": {
-    "tokenenrich-mcp": "./dist/index.js"
-  },
+  "bin": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js"
